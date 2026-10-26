@@ -1,0 +1,83 @@
+1. Healthcare – Increase in Patient Waiting Times
+
+Scenario: A hospital notices that patients are spending more time waiting to consult doctors in the outpatient department.
+
+Descriptive Analysis – What happened?
+Patients are waiting longer than usual, and the hospital is receiving more complaints about delays.
+
+Diagnostic Analysis – Why did it happen?
+The hospital may be receiving more patients than expected, some doctors may be unavailable, and appointments may not be scheduled efficiently.
+
+Predictive Analysis – What might happen next?
+Waiting times could increase further, patients may cancel appointments, and the overall quality of patient care could be affected.
+
+Prescriptive Analysis – What should we do?
+The hospital should improve its appointment system, use past patient data to predict busy periods, assign staff more effectively, and inform patients about expected waiting times.
+
+
+2. Banking – Increase in Failed Digital Transactions
+
+Scenario: A bank notices a sudden increase in failed UPI transactions, leaving customers frustrated.
+
+Descriptive Analysis – What happened?
+Many customers are experiencing failed payments, and some are facing delays in receiving refunds.
+
+Diagnostic Analysis – Why did it happen?
+The issue could be caused by server overload, network problems, payment system downtime, or technical issues between the bank and the payment interface.
+
+Predictive Analysis – What might happen next?
+If the issue continues, customer complaints may increase, people may lose confidence in digital payments, and the bank could face a decline in customer satisfaction.
+
+Prescriptive Analysis – What should we do?
+The bank should monitor transactions in real time, identify and fix the technical issue, use backup systems where possible, and keep customers informed about transaction failures and refunds.
+
+
+3. Education – Declining Student Performance
+
+Scenario: A college finds that students' examination results have been getting worse over the past two semesters.
+
+Descriptive Analysis – What happened?
+Average marks have dropped, and more students are struggling to pass important subjects.
+
+Diagnostic Analysis – Why did it happen?
+Students may have gaps in their basic understanding, attendance may be low, or the teaching methods may not be effective enough. A lack of practical learning could also be contributing to the problem.
+
+Predictive Analysis – What might happen next?
+If the situation continues, more students may fail their examinations, lose confidence, or take longer to complete their degrees.
+
+Prescriptive Analysis – What should we do?
+The college should identify the subjects in which students struggle most, arrange additional classes, provide individual support where needed, and include more practical activities to help students understand concepts better.
+
+
+4. Transportation – Frequent Bus Delays
+
+Scenario: A city's public buses are frequently running late during morning peak hours.
+
+Descriptive Analysis – What happened?
+Buses are arriving later than scheduled, causing passengers to reach their offices and colleges late.
+
+Diagnostic Analysis – Why did it happen?
+Heavy traffic, road construction, unexpected vehicle breakdowns, and unrealistic bus schedules could be responsible for the delays.
+
+Predictive Analysis – What might happen next?
+If the delays continue, passengers may become dissatisfied, buses could become more crowded, and some commuters may switch to private vehicles, making traffic even worse.
+
+Prescriptive Analysis – What should we do?
+The transport department should use GPS data to identify routes with frequent delays, adjust bus schedules, improve vehicle maintenance, and provide passengers with real-time updates about bus arrival times.
+
+
+5. Cybersecurity – Suspicious Login Attempts
+
+Scenario: A company notices an unusual increase in failed login attempts across employee accounts.
+
+Descriptive Analysis – What happened?
+Several employee accounts are receiving repeated failed login attempts, some of which originate from unfamiliar IP addresses.
+
+Diagnostic Analysis – Why did it happen?
+The activity could be caused by automated password attacks, attempts to use stolen credentials, or someone trying to gain unauthorised access to company systems.
+
+Predictive Analysis – What might happen next?
+If the activity is malicious and goes unchecked, an attacker could gain access to an employee account, expose sensitive information, or disrupt business operations.
+
+Prescriptive Analysis – What should we do?
+The company should investigate login records, enable multi-factor authentication, limit repeated login attempts, block confirmed malicious sources, secure any compromised accounts, and alert the security team.
