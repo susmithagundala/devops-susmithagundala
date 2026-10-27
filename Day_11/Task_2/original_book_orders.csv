@@ -1,0 +1,11 @@
+order_id,customer_city,product_name,quantity,unit_price,discount_percent,order_date,payment_method,delivery_days,order_status
+1001,Chennai,Python Basics,2,₹450,10.0,2026-10-01,UPI,3,Delivered
+1002, chennai ,Data Science 101,1,550,5.0,02/10/2026, credit card ,5,delivered
+1003,BENGALURU,Atomic Habits,3,₹399,,2026/10/03,COD,2,SHIPPED
+1004,Hyderabad,Deep Work,1,invalid,15.0,04-10-2026,UPI,7,Delivered
+1005,mumbai,Rich Dad Poor Dad,2,₹299,0.0,2026-10-05,Debit Card,4,Cancelled
+1006,CHENNAI,Clean Code,1,₹650,10.0,06/10/2026,upi,6,Delivered
+1007,,The Alchemist,4,350,5.0,2026-10-07,Net Banking,3,Pending
+1008,Pune,Think and Grow Rich,2,₹250,,08-10-2026,,999,shipped
+1009, pune ,Ikigai,-1,₹499,10.0,2026/10/09,COD,5,CANCELLED
+1010,HYDERABAD,The Psychology of Money,3,₹399,110.0,10/10/2026,CREDIT CARD,4,Delivered
