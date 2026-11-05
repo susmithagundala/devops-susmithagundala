@@ -1,0 +1,181 @@
+CustomerID,CustomerName,City,State,Country,SignupDate
+CUST0001,Customer 001,Bengaluru,Karnataka,India,2026-01-05
+CUST0002,Customer 002,Kochi,Kerala,India,2025-02-20
+CUST0003,Customer 003,Delhi,Delhi,India,2026-03-26
+CUST0004,Customer 004,Bengaluru,Karnataka,India,2025-10-24
+CUST0005,Customer 005,Hyderabad,Telangana,India,2024-03-30
+CUST0006,Customer 006,Kolkata,West Bengal,India,2026-07-15
+CUST0007,Customer 007,Coimbatore,Tamil Nadu,India,2025-12-24
+CUST0008,Customer 008,Coimbatore,Tamil Nadu,India,2026-01-16
+CUST0009,Customer 009,Kolkata,West Bengal,India,2024-05-01
+CUST0010,Customer 010,Ahmedabad,Gujarat,India,2025-03-03
+CUST0011,Customer 011,Kolkata,West Bengal,India,2024-12-18
+CUST0012,Customer 012,Hyderabad,Telangana,India,2026-05-30
+CUST0013,Customer 013,Jaipur,Rajasthan,India,2025-09-03
+CUST0014,Customer 014,Pune,Maharashtra,India,2026-02-20
+CUST0015,Customer 015,Kolkata,West Bengal,India,2025-02-25
+CUST0016,Customer 016,Delhi,Delhi,India,2024-08-03
+CUST0017,Customer 017,Bengaluru,Karnataka,India,2025-06-10
+CUST0018,Customer 018,Ahmedabad,Gujarat,India,2024-03-01
+CUST0019,Customer 019,Ahmedabad,Gujarat,India,2026-02-25
+CUST0020,Customer 020,Mumbai,Maharashtra,India,2025-08-23
+CUST0021,Customer 021,Bengaluru,Karnataka,India,2025-12-21
+CUST0022,Customer 022,Coimbatore,Tamil Nadu,India,2024-12-02
+CUST0023,Customer 023,Chennai,Tamil Nadu,India,2026-07-11
+CUST0024,Customer 024,Delhi,Delhi,India,2026-04-28
+CUST0025,Customer 025,Coimbatore,Tamil Nadu,India,2026-01-09
+CUST0026,Customer 026,Jaipur,Rajasthan,India,2024-07-03
+CUST0027,Customer 027,Pune,Maharashtra,India,2025-03-19
+CUST0028,Customer 028,Delhi,Delhi,India,2024-02-11
+CUST0029,Customer 029,Kolkata,West Bengal,India,2024-05-26
+CUST0030,Customer 030,Coimbatore,Tamil Nadu,India,2025-10-10
+CUST0031,Customer 031,Lucknow,Uttar Pradesh,India,2025-12-08
+CUST0032,Customer 032,Pune,Maharashtra,India,2026-07-08
+CUST0033,Customer 033,Pune,Maharashtra,India,2024-11-05
+CUST0034,Customer 034,Ahmedabad,Gujarat,India,2024-12-17
+CUST0035,Customer 035,Chennai,Tamil Nadu,India,2025-03-22
+CUST0036,Customer 036,Jaipur,Rajasthan,India,2024-06-28
+CUST0037,Customer 037,Delhi,Delhi,India,2024-05-03
+CUST0038,Customer 038,Coimbatore,Tamil Nadu,India,2025-03-27
+CUST0039,Customer 039,Mumbai,Maharashtra,India,2024-08-03
+CUST0040,Customer 040,Kolkata,West Bengal,India,2025-09-28
+CUST0041,Customer 041,Lucknow,Uttar Pradesh,India,2025-02-19
+CUST0042,Customer 042,Bengaluru,Karnataka,India,2026-03-02
+CUST0043,Customer 043,Kochi,Kerala,India,2025-10-27
+CUST0044,Customer 044,Bengaluru,Karnataka,India,2024-10-23
+CUST0045,Customer 045,Jaipur,Rajasthan,India,2026-03-01
+CUST0046,Customer 046,Delhi,Delhi,India,2026-02-03
+CUST0047,Customer 047,Ahmedabad,Gujarat,India,2025-01-03
+CUST0048,Customer 048,Ahmedabad,Gujarat,India,2024-09-30
+CUST0049,Customer 049,Hyderabad,Telangana,India,2025-10-10
+CUST0050,Customer 050,Kochi,Kerala,India,2024-05-12
+CUST0051,Customer 051,Jaipur,Rajasthan,India,2024-07-08
+CUST0052,Customer 052,Jaipur,Rajasthan,India,2024-01-07
+CUST0053,Customer 053,Jaipur,Rajasthan,India,2026-01-17
+CUST0054,Customer 054,Jaipur,Rajasthan,India,2025-09-23
+CUST0055,Customer 055,Delhi,Delhi,India,2025-10-31
+CUST0056,Customer 056,Mumbai,Maharashtra,India,2026-01-11
+CUST0057,Customer 057,Kolkata,West Bengal,India,2025-03-11
+CUST0058,Customer 058,Kolkata,West Bengal,India,2025-06-24
+CUST0059,Customer 059,Chennai,Tamil Nadu,India,2024-05-12
+CUST0060,Customer 060,Hyderabad,Telangana,India,2024-04-18
+CUST0061,Customer 061,Delhi,Delhi,India,2025-09-26
+CUST0062,Customer 062,Kochi,Kerala,India,2025-03-23
+CUST0063,Customer 063,Ahmedabad,Gujarat,India,2025-06-20
+CUST0064,Customer 064,Chennai,Tamil Nadu,India,2025-12-27
+CUST0065,Customer 065,Kolkata,West Bengal,India,2025-08-25
+CUST0066,Customer 066,Kolkata,West Bengal,India,2025-06-09
+CUST0067,Customer 067,Bengaluru,Karnataka,India,2025-06-15
+CUST0068,Customer 068,Jaipur,Rajasthan,India,2024-10-15
+CUST0069,Customer 069,Kochi,Kerala,India,2024-01-30
+CUST0070,Customer 070,Pune,Maharashtra,India,2025-02-18
+CUST0071,Customer 071,Lucknow,Uttar Pradesh,India,2024-07-22
+CUST0072,Customer 072,Mumbai,Maharashtra,India,2025-01-23
+CUST0073,Customer 073,Lucknow,Uttar Pradesh,India,2026-03-21
+CUST0074,Customer 074,Chennai,Tamil Nadu,India,2024-08-10
+CUST0075,Customer 075,Jaipur,Rajasthan,India,2024-02-25
+CUST0076,Customer 076,Ahmedabad,Gujarat,India,2024-09-24
+CUST0077,Customer 077,Lucknow,Uttar Pradesh,India,2024-10-05
+CUST0078,Customer 078,Delhi,Delhi,India,2025-09-20
+CUST0079,Customer 079,Bengaluru,Karnataka,India,2025-06-13
+CUST0080,Customer 080,Kolkata,West Bengal,India,2026-01-14
+CUST0081,Customer 081,Lucknow,Uttar Pradesh,India,2025-09-23
+CUST0082,Customer 082,Pune,Maharashtra,India,2025-01-21
+CUST0083,Customer 083,Delhi,Delhi,India,2026-02-12
+CUST0084,Customer 084,Mumbai,Maharashtra,India,2024-06-07
+CUST0085,Customer 085,Pune,Maharashtra,India,2024-01-22
+CUST0086,Customer 086,Bengaluru,Karnataka,India,2024-03-26
+CUST0087,Customer 087,Jaipur,Rajasthan,India,2025-11-17
+CUST0088,Customer 088,Coimbatore,Tamil Nadu,India,2025-03-14
+CUST0089,Customer 089,Coimbatore,Tamil Nadu,India,2024-06-02
+CUST0090,Customer 090,Ahmedabad,Gujarat,India,2025-04-20
+CUST0091,Customer 091,Lucknow,Uttar Pradesh,India,2024-05-24
+CUST0092,Customer 092,Delhi,Delhi,India,2025-10-23
+CUST0093,Customer 093,Delhi,Delhi,India,2025-02-27
+CUST0094,Customer 094,Bengaluru,Karnataka,India,2024-12-27
+CUST0095,Customer 095,Hyderabad,Telangana,India,2024-10-13
+CUST0096,Customer 096,Coimbatore,Tamil Nadu,India,2025-08-21
+CUST0097,Customer 097,Kochi,Kerala,India,2024-12-09
+CUST0098,Customer 098,Lucknow,Uttar Pradesh,India,2024-03-24
+CUST0099,Customer 099,Pune,Maharashtra,India,2024-04-22
+CUST0100,Customer 100,Pune,Maharashtra,India,2026-07-02
+CUST0101,Customer 101,Pune,Maharashtra,India,2026-05-13
+CUST0102,Customer 102,Delhi,Delhi,India,2025-10-26
+CUST0103,Customer 103,Delhi,Delhi,India,2024-09-09
+CUST0104,Customer 104,Jaipur,Rajasthan,India,2026-07-09
+CUST0105,Customer 105,Mumbai,Maharashtra,India,2026-01-09
+CUST0106,Customer 106,Mumbai,Maharashtra,India,2025-11-12
+CUST0107,Customer 107,Jaipur,Rajasthan,India,2025-03-02
+CUST0108,Customer 108,Coimbatore,Tamil Nadu,India,2024-09-15
+CUST0109,Customer 109,Chennai,Tamil Nadu,India,2024-04-01
+CUST0110,Customer 110,Delhi,Delhi,India,2026-05-07
+CUST0111,Customer 111,Bengaluru,Karnataka,India,2025-03-08
+CUST0112,Customer 112,Coimbatore,Tamil Nadu,India,2024-07-11
+CUST0113,Customer 113,Coimbatore,Tamil Nadu,India,2024-10-17
+CUST0114,Customer 114,Jaipur,Rajasthan,India,2025-07-04
+CUST0115,Customer 115,Kolkata,West Bengal,India,2024-06-16
+CUST0116,Customer 116,Delhi,Delhi,India,2026-03-24
+CUST0117,Customer 117,Chennai,Tamil Nadu,India,2025-12-21
+CUST0118,Customer 118,Delhi,Delhi,India,2025-11-14
+CUST0119,Customer 119,Kochi,Kerala,India,2025-02-14
+CUST0120,Customer 120,Mumbai,Maharashtra,India,2025-08-18
+CUST0121,Customer 121,Bengaluru,Karnataka,India,2025-07-08
+CUST0122,Customer 122,Bengaluru,Karnataka,India,2025-09-09
+CUST0123,Customer 123,Kochi,Kerala,India,2024-03-21
+CUST0124,Customer 124,Jaipur,Rajasthan,India,2025-01-30
+CUST0125,Customer 125,Jaipur,Rajasthan,India,2024-02-09
+CUST0126,Customer 126,Hyderabad,Telangana,India,2025-04-14
+CUST0127,Customer 127,Hyderabad,Telangana,India,2024-11-09
+CUST0128,Customer 128,Kochi,Kerala,India,2024-05-17
+CUST0129,Customer 129,Coimbatore,Tamil Nadu,India,2024-04-08
+CUST0130,Customer 130,Hyderabad,Telangana,India,2025-07-12
+CUST0131,Customer 131,Jaipur,Rajasthan,India,2024-06-11
+CUST0132,Customer 132,Mumbai,Maharashtra,India,2026-05-28
+CUST0133,Customer 133,Lucknow,Uttar Pradesh,India,2025-07-06
+CUST0134,Customer 134,Delhi,Delhi,India,2024-11-25
+CUST0135,Customer 135,Kochi,Kerala,India,2025-07-15
+CUST0136,Customer 136,Mumbai,Maharashtra,India,2024-01-22
+CUST0137,Customer 137,Bengaluru,Karnataka,India,2026-06-29
+CUST0138,Customer 138,Delhi,Delhi,India,2025-04-03
+CUST0139,Customer 139,Delhi,Delhi,India,2026-01-13
+CUST0140,Customer 140,Chennai,Tamil Nadu,India,2024-03-19
+CUST0141,Customer 141,Mumbai,Maharashtra,India,2025-04-07
+CUST0142,Customer 142,Coimbatore,Tamil Nadu,India,2025-04-11
+CUST0143,Customer 143,Delhi,Delhi,India,2026-06-09
+CUST0144,Customer 144,Bengaluru,Karnataka,India,2025-06-27
+CUST0145,Customer 145,Kolkata,West Bengal,India,2025-03-25
+CUST0146,Customer 146,Jaipur,Rajasthan,India,2024-09-10
+CUST0147,Customer 147,Lucknow,Uttar Pradesh,India,2024-11-10
+CUST0148,Customer 148,Kolkata,West Bengal,India,2025-05-09
+CUST0149,Customer 149,Ahmedabad,Gujarat,India,2025-02-20
+CUST0150,Customer 150,Mumbai,Maharashtra,India,2024-01-21
+CUST0151,Customer 151,Pune,Maharashtra,India,2026-02-23
+CUST0152,Customer 152,Chennai,Tamil Nadu,India,2026-05-01
+CUST0153,Customer 153,Kolkata,West Bengal,India,2024-05-13
+CUST0154,Customer 154,Mumbai,Maharashtra,India,2025-06-10
+CUST0155,Customer 155,Mumbai,Maharashtra,India,2024-04-13
+CUST0156,Customer 156,Kochi,Kerala,India,2025-09-30
+CUST0157,Customer 157,Bengaluru,Karnataka,India,2024-09-24
+CUST0158,Customer 158,Hyderabad,Telangana,India,2025-09-18
+CUST0159,Customer 159,Coimbatore,Tamil Nadu,India,2025-11-21
+CUST0160,Customer 160,Lucknow,Uttar Pradesh,India,2025-12-31
+CUST0161,Customer 161,Mumbai,Maharashtra,India,2024-04-12
+CUST0162,Customer 162,Kochi,Kerala,India,2026-05-20
+CUST0163,Customer 163,Lucknow,Uttar Pradesh,India,2024-08-06
+CUST0164,Customer 164,Hyderabad,Telangana,India,2024-02-05
+CUST0165,Customer 165,Bengaluru,Karnataka,India,2025-06-11
+CUST0166,Customer 166,Kolkata,West Bengal,India,2024-12-18
+CUST0167,Customer 167,Mumbai,Maharashtra,India,2026-02-27
+CUST0168,Customer 168,Delhi,Delhi,India,2026-02-06
+CUST0169,Customer 169,Lucknow,Uttar Pradesh,India,2024-10-28
+CUST0170,Customer 170,Hyderabad,Telangana,India,2026-06-24
+CUST0171,Customer 171,Kochi,Kerala,India,2024-10-03
+CUST0172,Customer 172,Kochi,Kerala,India,2025-05-04
+CUST0173,Customer 173,Ahmedabad,Gujarat,India,2024-08-31
+CUST0174,Customer 174,Lucknow,Uttar Pradesh,India,2026-06-08
+CUST0175,Customer 175,Hyderabad,Telangana,India,2024-06-05
+CUST0176,Customer 176,Kolkata,West Bengal,India,2024-02-12
+CUST0177,Customer 177,Mumbai,Maharashtra,India,2025-02-17
+CUST0178,Customer 178,Lucknow,Uttar Pradesh,India,2026-07-31
+CUST0179,Customer 179,Bengaluru,Karnataka,India,2026-04-27
+CUST0180,Customer 180,Bengaluru,Karnataka,India,2025-12-12

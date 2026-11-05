@@ -1,0 +1,32 @@
+ProductID,ProductName,Category,SubCategory,UnitCost,UnitPrice
+PROD001,Smartphone A,Electronics,Mobile Phones,24170,33933
+PROD002,Smartphone B,Electronics,Mobile Phones,21956,35708
+PROD003,Feature Phone,Electronics,Mobile Phones,13037,19152
+PROD004,Wireless Earbuds,Electronics,Accessories,8551,13115
+PROD005,Power Bank,Electronics,Accessories,8487,16821
+PROD006,USB-C Charger,Electronics,Accessories,10371,15384
+PROD007,Bluetooth Speaker,Electronics,Accessories,11311,15633
+PROD008,Men's T-Shirt,Fashion,Men's Wear,871,1606
+PROD009,Men's Jeans,Fashion,Men's Wear,379,545
+PROD010,Casual Shirt,Fashion,Men's Wear,500,963
+PROD011,Women's Kurti,Fashion,Women's Wear,2437,3834
+PROD012,Women's Jeans,Fashion,Women's Wear,865,1223
+PROD013,Handbag,Fashion,Women's Wear,339,605
+PROD014,Mixer Grinder,Home & Kitchen,Kitchen Appliances,2014,2954
+PROD015,Electric Kettle,Home & Kitchen,Kitchen Appliances,2748,4504
+PROD016,Air Fryer,Home & Kitchen,Kitchen Appliances,6543,12647
+PROD017,Bedsheet Set,Home & Kitchen,Home Essentials,6573,12179
+PROD018,Storage Organizer,Home & Kitchen,Home Essentials,346,673
+PROD019,Table Lamp,Home & Kitchen,Home Essentials,369,723
+PROD020,Face Moisturizer,Beauty,Skincare,1706,2790
+PROD021,Sunscreen SPF 50,Beauty,Skincare,2352,3728
+PROD022,Face Cleanser,Beauty,Skincare,1517,2853
+PROD023,Hair Dryer,Beauty,Personal Care,2325,3491
+PROD024,Electric Trimmer,Beauty,Personal Care,2194,3265
+PROD025,Perfume,Beauty,Personal Care,1714,3347
+PROD026,Yoga Mat,Sports,Fitness,754,1046
+PROD027,Dumbbell Set,Sports,Fitness,424,760
+PROD028,Resistance Bands,Sports,Fitness,1557,2565
+PROD029,Programming Handbook,Books,Education,626,860
+PROD030,Business Strategy Book,Books,Education,588,1061
+PROD031,Fiction Bestseller,Books,Education,704,1448
