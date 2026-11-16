@@ -1,0 +1,4 @@
+package com.insurance.enums;
+public enum EvidenceType {
+    REPAIR_INVOICE, ACCIDENT_PHOTO, POLICE_REPORT, VEHICLE_DOCUMENT, DRIVING_LICENCE, MEDICAL_REPORT, OTHER
+}

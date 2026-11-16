@@ -1,0 +1,4 @@
+package com.insurance.enums;
+public enum ClaimStatus {
+    SUBMITTED, UNDER_REVIEW, ADDITIONAL_EVIDENCE_REQUESTED, CLEARED_FOR_PROCESSING, REJECTED
+}

@@ -1,0 +1,93 @@
+name: claimsure
+
+services:
+  # PostgreSQL database
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-insurance_fraud_db}
+      POSTGRES_USER: ${POSTGRES_USER:-claimsure}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the root .env file}
+    volumes:
+      - claimsure_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  # Spring Boot backend
+  backend:
+    build:
+      context: ./insurance-fraud-backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-insurance_fraud_db}
+      DB_USERNAME: ${POSTGRES_USER:-claimsure}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the root .env file}
+
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in the root .env file}
+      JWT_EXPIRATION_MS: ${JWT_EXPIRATION_MS:-3600000}
+
+      S3_ENABLED: "true"
+      AWS_REGION: ${AWS_REGION:-ap-south-1}
+      AWS_S3_BUCKET: ${AWS_S3_BUCKET:?Set AWS_S3_BUCKET in the root .env file}
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # React frontend served through Nginx
+  frontend:
+    build:
+      context: ./insurance-fraud-frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: /api
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  # Python ETL - optional, one-shot execution
+  etl:
+    build:
+      context: ./insurance-fraud-etl
+      dockerfile: Dockerfile
+
+    profiles:
+      - etl
+
+    init: true
+
+    environment:
+      # PostgreSQL connection inside Docker
+      DB_HOST: postgres
+      DB_PORT: "5432"
+      DB_USERNAME: ${POSTGRES_USER:-claimsure}
+      DB_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in root .env}
+      DB_NAME: ${POSTGRES_DB:-insurance_fraud_db}
+
+      # Snowflake connection
+      SNOWFLAKE_ACCOUNT: ${SNOWFLAKE_ACCOUNT:?Set SNOWFLAKE_ACCOUNT in root .env}
+      SNOWFLAKE_USER: ${SNOWFLAKE_USER:?Set SNOWFLAKE_USER in root .env}
+      SNOWFLAKE_PASSWORD: ${SNOWFLAKE_PASSWORD:?Set SNOWFLAKE_PASSWORD in root .env}
+      SNOWFLAKE_WAREHOUSE: ${SNOWFLAKE_WAREHOUSE:?Set SNOWFLAKE_WAREHOUSE in root .env}
+      SNOWFLAKE_DATABASE: ${SNOWFLAKE_DATABASE:-INSURANCE_FRAUD_DW}
+      SNOWFLAKE_SCHEMA: ${SNOWFLAKE_SCHEMA:-CLAIMS_ANALYTICS}
+      SNOWFLAKE_ROLE: ${SNOWFLAKE_ROLE:-}
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    restart: "no"
+
+volumes:
+  claimsure_postgres_data:
